@@ -87,6 +87,8 @@ LEFT JOIN Subjects sub ON s.id_subject = sub.id
 -- возможно в задании имелось ввиду найти кружки, занятие или хобби.
 -- По сути у каждого ученика по 1-му классу.
 
+SELECT s.name, 1 as classes FROM Students s;
+
 
 
 
